@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../iconmoon-files/icomoon.eot?rc9jm3');
+  src: url('../iconmoon-files/icomoon.eot?rc9jm3#iefix') format('embedded-opentype'), 
+  url('../iconmoon-files/icomoon.ttf') format('truetype'), 
+  url('../iconmoon-files/icomoon.woff?rc9jm3') format('woff'), 
+  url('../iconmoon-files/icomoon.svg?rc9jm3#icomoon') format('svg');
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../iconmoon-files/icomoon1.eot?6qy4pa');
+  src:  url('../iconmoon-files/icomoon1.eot?6qy4pa#iefix') format('embedded-opentype'),
+    url('../iconmoon-files/icomoon1.ttf?6qy4pa') format('truetype'),
+    url('../iconmoon-files/icomoon1.woff?6qy4pa') format('woff'),
+    url('../iconmoon-files/icomoon1.svg?6qy4pa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.kw {
+  display: inline-block;
+  speak: none;
+  position: absolute;
+  left: 0%;
+  top: 3%;
+  font: normal normal normal 50px/1 icomoon;
+}
+
+.icomoon {
+  display: inline-block;
+  font: normal normal normal 14px/1 icomoon;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+/* [class^="kw-icon-"], [class*=" kw-icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* .icon-icon_return:before {
+  content: "\e901";
+  color: #fff;
+} */
+
+.icon-icon_done:before {
+  content: "\e902";
+}
+
+.icon-droplet:before {
+  content: "\e90b";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+}

@@ -1,0 +1,46 @@
+{
+  "name": "tabulator",
+  "main": "tabulator.js",
+  "version": "3.1.0",
+  "description": "Interactive table generation plugin for jQuery UI",
+  "keywords": [
+    "table",
+    "grid",
+    "datagrid",
+    "tabulator",
+    "editable",
+    "cookie",
+    "jquery",
+    "jqueryui",
+    "sort",
+    "format",
+    "resizable",
+    "list",
+    "scrollable",
+    "ajax",
+    "json",
+    "widget"
+  ],
+  "authors": [
+    "Oli Folkerd"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/olifolkerd/tabulator",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "3.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.1.0",
+    "commit": "98a611101d3d91b86a29b7ca1b6189474675bffc"
+  },
+  "_source": "https://github.com/olifolkerd/tabulator.git",
+  "_target": "^3.1.0",
+  "_originalSource": "tabulator",
+  "_direct": true
+}

@@ -1,0 +1,4 @@
+node_modules
+dist
+!src/app/node_modules/bootstrap
+!src/app/node_modules/bootstrap/dist
