@@ -200,16 +200,9 @@ module.exports = {
                 { from: "./src/app/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js", to: "./bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" },
                 { from: "./src/app/bower_components/angular-chips/dist/angular-chips.min.js", to: "./bower_components/angular-chips/dist/angular-chips.min.js" },
                 { from: "./src/app/bower_components/angular-chips-master/dist/angular-chips.min.js", to: "./bower_components/angular-chips-master/dist/angular-chips.min.js" },
-                //text editor -->
-                { from: "./src/app/www/lib/textAngular/dist/textAngular.css", to: "./www/lib/textAngular/dist/textAngular.css" },
-                { from: "./src/app/www/lib/textAngular/dist/textAngular-rangy.min.js", to: "./www/lib/textAngular/dist/textAngular-rangy.min.js" },
-                { from: "./src/app/www/lib/textAngular/dist/textAngular-sanitize.min.js", to: "./www/lib/textAngular/dist/textAngular-sanitize.min.js" },
-                { from: "./src/app/www/lib/textAngular/dist/textAngular.min.js", to: "./www/lib/textAngular/dist/textAngular.min.js" },
                 //google Map-->
                 { from: "./src/app/bower_components/ngmap/ng-map.js", to: "./bower_components/ngmap/ng-map.js" },
                 //Upload file -->
-                { from: "./src/app/www/lib/ng-file-upload-shim/ng-file-upload-shim.min.js", to: "./www/lib/ng-file-upload-shim/ng-file-upload-shim.min.js" },
-                { from: "./src/app/www/lib/ng-file-upload/ng-file-upload.min.js", to: "./www/lib/ng-file-upload/ng-file-upload.min.js" },
                 { from: "./src/app/bower_components/src/isteven-multi-select.js", to: "./bower_components/src/isteven-multi-select.js" },
                 { from: "./src/app/bower_components/moment/moment.js", to: "./bower_components/moment/moment.js" },
                 { from: "./src/app/bower_components/angular-moment/angular-moment.js", to: "./bower_components/angular-moment/angular-moment.js" },

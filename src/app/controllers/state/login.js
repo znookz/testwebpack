@@ -1,9 +1,7 @@
 ﻿module.exports = function (app) {
-    app.controller('loginController', ['$scope', '$state', 'systemInfo', 'logopath2',
-        function ($scope, $state, systemInfo, logopath2) {
+    app.controller('loginController', ['$scope', '$state',
+        function ($scope, $state) {
             // debugger
-            $scope.systemInfo = systemInfo;
-            $scope.logopath2 = logopath2;
             return
             $scope.loginData = {};
             // check authen
