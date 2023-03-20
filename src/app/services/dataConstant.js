@@ -29,9 +29,6 @@
     app.constant('webServiceAPImobileAuth', urlMobileSite + 'Authentication.API/');
     app.constant('webServiceAPImobileIP', 'mobilysttech-uat.inet.co.th');
 
-
-
-
     app.constant('webServiceAPI2test', 'https://localhost:44346/api/');
     app.constant('systemInfo', {
         title: 'Register and Authentication System',

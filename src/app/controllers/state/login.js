@@ -1,13 +1,11 @@
 ﻿module.exports = function (app) {
     app.controller('loginController', ['$scope', '$state',
         function ($scope, $state) {
-            // debugger
-            return
             $scope.loginData = {};
             // check authen
             // var isAuth = authService.fillAuthData();
             var messageBox = dpMessageBox;
-            var auth = authService.authentication;
+            // var auth = authService.authentication;
             if (auth.isAuthentication() == true) {
                 $state.go('tms.dashboard');
             }
@@ -31,41 +29,7 @@
 
                         localStorage.setItem("PC_RGT", JSON.stringify(res));
 
-                        // var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
-                        //     (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
-                        //     (document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
-                        //     (document.msFullscreenElement && document.msFullscreenElement !== null);
 
-                        // var docElm = document.documentElement;
-                        // if (!isInFullScreen) {
-                        //     if (docElm.requestFullscreen) {
-                        //         docElm.requestFullscreen();
-                        //         // b.innerHTML = '<i class="fa fa-times-circle" aria-hidden="true"></i> Exit Screen';
-                        //     } else if (docElm.mozRequestFullScreen) {
-                        //         docElm.mozRequestFullScreen();
-                        //         // b.innerHTML = '<i class="fa fa-times-circle" aria-hidden="true"></i> Exit Screen';
-                        //     } else if (docElm.webkitRequestFullScreen) {
-                        //         docElm.webkitRequestFullScreen();
-                        //         // b.innerHTML = '<i class="fa fa-times-circle" aria-hidden="true"></i> Exit Screen';
-                        //     } else if (docElm.msRequestFullscreen) {
-                        //         docElm.msRequestFullscreen();
-                        //         // b.innerHTML = '<i class="fa fa-times-circle" aria-hidden="true"></i> Exit Screen';
-                        //     }
-                        // } else {
-                        //     if (document.exitFullscreen) {
-                        //         document.exitFullscreen();
-                        //         // b.innerHTML = '<i class="fa fa-arrows-alt" aria-hidden="true"></i> Full Screen';
-                        //     } else if (document.webkitExitFullscreen) {
-                        //         document.webkitExitFullscreen();
-                        //         // b.innerHTML = '<i class="fa fa-arrows-alt" aria-hidden="true"></i> Full Screen';
-                        //     } else if (document.mozCancelFullScreen) {
-                        //         document.mozCancelFullScreen();
-                        //         // b.innerHTML = '<i class="fa fa-arrows-alt" aria-hidden="true"></i> Full Screen';
-                        //     } else if (document.msExitFullscreen) {
-                        //         document.msExitFullscreen();
-                        //         // b.innerHTML = '<i class="fa fa-arrows-alt" aria-hidden="true"></i> Full Screen';
-                        //     }
-                        // }
 
                         if (username == "pc" && password == "pc")
                             $state.go('tms.backoffice');
@@ -106,24 +70,6 @@
                     });
 
 
-
-                // var loginData = {
-                //     "Username": username,
-                //     "Password": password
-                // }
-
-                // authService.login(loginData).then(function(res) {
-
-                //     var auth = authService.authentication;
-                //     console.log(auth);
-                //     if (auth.isAuth == true) {
-                //         $state.go('tms.index');
-                //     } else {
-                //         alert('login Filed');
-                //     }
-                // }, function error(response) {
-                //     alert('message: ' + response);
-                // });
             }
 
             $scope.forgetpassword = function (user) {
